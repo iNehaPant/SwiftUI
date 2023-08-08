@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA46C1B32A7EF3DA00086217 /* SignUpFormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA46C1B22A7EF3DA00086217 /* SignUpFormApp.swift */; };
+		BA46C1B52A7EF3DA00086217 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA46C1B42A7EF3DA00086217 /* SignUpView.swift */; };
+		BA46C1B72A7EF3DC00086217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA46C1B62A7EF3DC00086217 /* Assets.xcassets */; };
+		BA46C1BA2A7EF3DC00086217 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA46C1B92A7EF3DC00086217 /* Preview Assets.xcassets */; };
+		BA46C1C42A7EF3DC00086217 /* SignUpFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA46C1C32A7EF3DC00086217 /* SignUpFormTests.swift */; };
+		BA46C1CE2A7EF3DC00086217 /* SignUpFormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA46C1CD2A7EF3DC00086217 /* SignUpFormUITests.swift */; };
+		BA46C1D02A7EF3DD00086217 /* SignUpFormUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA46C1CF2A7EF3DD00086217 /* SignUpFormUITestsLaunchTests.swift */; };
+		BA46C2B52A828D1D00086217 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA46C2B42A828D1D00086217 /* SignUpViewModel.swift */; };
+		BA46C2B72A828D4A00086217 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA46C2B62A828D4A00086217 /* DetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA46C1C02A7EF3DC00086217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA46C1A72A7EF3DA00086217 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA46C1AE2A7EF3DA00086217;
+			remoteInfo = SignUpForm;
+		};
+		BA46C1CA2A7EF3DC00086217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA46C1A72A7EF3DA00086217 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA46C1AE2A7EF3DA00086217;
+			remoteInfo = SignUpForm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA46C1AF2A7EF3DA00086217 /* SignUpForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignUpForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA46C1B22A7EF3DA00086217 /* SignUpFormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFormApp.swift; sourceTree = "<group>"; };
+		BA46C1B42A7EF3DA00086217 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		BA46C1B62A7EF3DC00086217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA46C1B92A7EF3DC00086217 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA46C1BF2A7EF3DC00086217 /* SignUpFormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignUpFormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA46C1C32A7EF3DC00086217 /* SignUpFormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFormTests.swift; sourceTree = "<group>"; };
+		BA46C1C92A7EF3DC00086217 /* SignUpFormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignUpFormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA46C1CD2A7EF3DC00086217 /* SignUpFormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFormUITests.swift; sourceTree = "<group>"; };
+		BA46C1CF2A7EF3DD00086217 /* SignUpFormUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFormUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA46C2B42A828D1D00086217 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		BA46C2B62A828D4A00086217 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA46C1AC2A7EF3DA00086217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA46C1BC2A7EF3DC00086217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA46C1C62A7EF3DC00086217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA46C1A62A7EF3DA00086217 = {
+			isa = PBXGroup;
+			children = (
+				BA46C1B12A7EF3DA00086217 /* SignUpForm */,
+				BA46C1C22A7EF3DC00086217 /* SignUpFormTests */,
+				BA46C1CC2A7EF3DC00086217 /* SignUpFormUITests */,
+				BA46C1B02A7EF3DA00086217 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA46C1B02A7EF3DA00086217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA46C1AF2A7EF3DA00086217 /* SignUpForm.app */,
+				BA46C1BF2A7EF3DC00086217 /* SignUpFormTests.xctest */,
+				BA46C1C92A7EF3DC00086217 /* SignUpFormUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA46C1B12A7EF3DA00086217 /* SignUpForm */ = {
+			isa = PBXGroup;
+			children = (
+				BA46C1B22A7EF3DA00086217 /* SignUpFormApp.swift */,
+				BA46C2B92A828F0600086217 /* ViewModel */,
+				BA46C2B82A828EF700086217 /* View */,
+				BA46C1B62A7EF3DC00086217 /* Assets.xcassets */,
+				BA46C1B82A7EF3DC00086217 /* Preview Content */,
+			);
+			path = SignUpForm;
+			sourceTree = "<group>";
+		};
+		BA46C1B82A7EF3DC00086217 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA46C1B92A7EF3DC00086217 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA46C1C22A7EF3DC00086217 /* SignUpFormTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA46C1C32A7EF3DC00086217 /* SignUpFormTests.swift */,
+			);
+			path = SignUpFormTests;
+			sourceTree = "<group>";
+		};
+		BA46C1CC2A7EF3DC00086217 /* SignUpFormUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA46C1CD2A7EF3DC00086217 /* SignUpFormUITests.swift */,
+				BA46C1CF2A7EF3DD00086217 /* SignUpFormUITestsLaunchTests.swift */,
+			);
+			path = SignUpFormUITests;
+			sourceTree = "<group>";
+		};
+		BA46C2B82A828EF700086217 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA46C1B42A7EF3DA00086217 /* SignUpView.swift */,
+				BA46C2B62A828D4A00086217 /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA46C2B92A828F0600086217 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA46C2B42A828D1D00086217 /* SignUpViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA46C1AE2A7EF3DA00086217 /* SignUpForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA46C1D32A7EF3DD00086217 /* Build configuration list for PBXNativeTarget "SignUpForm" */;
+			buildPhases = (
+				BA46C1AB2A7EF3DA00086217 /* Sources */,
+				BA46C1AC2A7EF3DA00086217 /* Frameworks */,
+				BA46C1AD2A7EF3DA00086217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignUpForm;
+			productName = SignUpForm;
+			productReference = BA46C1AF2A7EF3DA00086217 /* SignUpForm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA46C1BE2A7EF3DC00086217 /* SignUpFormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA46C1D62A7EF3DD00086217 /* Build configuration list for PBXNativeTarget "SignUpFormTests" */;
+			buildPhases = (
+				BA46C1BB2A7EF3DC00086217 /* Sources */,
+				BA46C1BC2A7EF3DC00086217 /* Frameworks */,
+				BA46C1BD2A7EF3DC00086217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA46C1C12A7EF3DC00086217 /* PBXTargetDependency */,
+			);
+			name = SignUpFormTests;
+			productName = SignUpFormTests;
+			productReference = BA46C1BF2A7EF3DC00086217 /* SignUpFormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA46C1C82A7EF3DC00086217 /* SignUpFormUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA46C1D92A7EF3DD00086217 /* Build configuration list for PBXNativeTarget "SignUpFormUITests" */;
+			buildPhases = (
+				BA46C1C52A7EF3DC00086217 /* Sources */,
+				BA46C1C62A7EF3DC00086217 /* Frameworks */,
+				BA46C1C72A7EF3DC00086217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA46C1CB2A7EF3DC00086217 /* PBXTargetDependency */,
+			);
+			name = SignUpFormUITests;
+			productName = SignUpFormUITests;
+			productReference = BA46C1C92A7EF3DC00086217 /* SignUpFormUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA46C1A72A7EF3DA00086217 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BA46C1AE2A7EF3DA00086217 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BA46C1BE2A7EF3DC00086217 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BA46C1AE2A7EF3DA00086217;
+					};
+					BA46C1C82A7EF3DC00086217 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BA46C1AE2A7EF3DA00086217;
+					};
+				};
+			};
+			buildConfigurationList = BA46C1AA2A7EF3DA00086217 /* Build configuration list for PBXProject "SignUpForm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA46C1A62A7EF3DA00086217;
+			productRefGroup = BA46C1B02A7EF3DA00086217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA46C1AE2A7EF3DA00086217 /* SignUpForm */,
+				BA46C1BE2A7EF3DC00086217 /* SignUpFormTests */,
+				BA46C1C82A7EF3DC00086217 /* SignUpFormUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA46C1AD2A7EF3DA00086217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA46C1BA2A7EF3DC00086217 /* Preview Assets.xcassets in Resources */,
+				BA46C1B72A7EF3DC00086217 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA46C1BD2A7EF3DC00086217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA46C1C72A7EF3DC00086217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA46C1AB2A7EF3DA00086217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA46C1B52A7EF3DA00086217 /* SignUpView.swift in Sources */,
+				BA46C2B72A828D4A00086217 /* DetailView.swift in Sources */,
+				BA46C2B52A828D1D00086217 /* SignUpViewModel.swift in Sources */,
+				BA46C1B32A7EF3DA00086217 /* SignUpFormApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA46C1BB2A7EF3DC00086217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA46C1C42A7EF3DC00086217 /* SignUpFormTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA46C1C52A7EF3DC00086217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA46C1D02A7EF3DD00086217 /* SignUpFormUITestsLaunchTests.swift in Sources */,
+				BA46C1CE2A7EF3DC00086217 /* SignUpFormUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA46C1C12A7EF3DC00086217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA46C1AE2A7EF3DA00086217 /* SignUpForm */;
+			targetProxy = BA46C1C02A7EF3DC00086217 /* PBXContainerItemProxy */;
+		};
+		BA46C1CB2A7EF3DC00086217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA46C1AE2A7EF3DA00086217 /* SignUpForm */;
+			targetProxy = BA46C1CA2A7EF3DC00086217 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA46C1D12A7EF3DD00086217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA46C1D22A7EF3DD00086217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA46C1D42A7EF3DD00086217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SignUpForm/Preview Content\"";
+				DEVELOPMENT_TEAM = 2L4S2R834D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.SignUpForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA46C1D52A7EF3DD00086217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SignUpForm/Preview Content\"";
+				DEVELOPMENT_TEAM = 2L4S2R834D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.SignUpForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA46C1D72A7EF3DD00086217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L4S2R834D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.SignUpFormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignUpForm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SignUpForm";
+			};
+			name = Debug;
+		};
+		BA46C1D82A7EF3DD00086217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L4S2R834D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.SignUpFormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignUpForm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SignUpForm";
+			};
+			name = Release;
+		};
+		BA46C1DA2A7EF3DD00086217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L4S2R834D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.SignUpFormUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SignUpForm;
+			};
+			name = Debug;
+		};
+		BA46C1DB2A7EF3DD00086217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L4S2R834D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.SignUpFormUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SignUpForm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA46C1AA2A7EF3DA00086217 /* Build configuration list for PBXProject "SignUpForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA46C1D12A7EF3DD00086217 /* Debug */,
+				BA46C1D22A7EF3DD00086217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA46C1D32A7EF3DD00086217 /* Build configuration list for PBXNativeTarget "SignUpForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA46C1D42A7EF3DD00086217 /* Debug */,
+				BA46C1D52A7EF3DD00086217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA46C1D62A7EF3DD00086217 /* Build configuration list for PBXNativeTarget "SignUpFormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA46C1D72A7EF3DD00086217 /* Debug */,
+				BA46C1D82A7EF3DD00086217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA46C1D92A7EF3DD00086217 /* Build configuration list for PBXNativeTarget "SignUpFormUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA46C1DA2A7EF3DD00086217 /* Debug */,
+				BA46C1DB2A7EF3DD00086217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA46C1A72A7EF3DA00086217 /* Project object */;
+}
